@@ -4,7 +4,7 @@ I-Temp (I-Temperature) is a open source project for intelligent temperature cont
 
 # Goals
 
-- Using cheap and contactless temperature sensor to collect users' skin temperature to know the comfort level
+- Using cheap and contactless temperature sensor to collect users'  facial skin temperature to know the comfort level
 - Implement machine learning to predict comfort level after training
 - Control Heating, Ventilation and Air Conditioning (HVAC) system based on prediction
 
