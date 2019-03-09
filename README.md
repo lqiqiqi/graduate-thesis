@@ -34,7 +34,7 @@ Since the project is still in progress, this is not a perfect guideline.
 
 2. Connect the temperature sensor to micro controller (now we use 
 
-   [OpenMV]: https://openmv.io/
+   [OpenMV]: (https://openmv.io/)
 
     which is like a Arduino but it supports python)
 
