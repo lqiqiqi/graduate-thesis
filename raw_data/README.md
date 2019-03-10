@@ -8,3 +8,7 @@ df.to_csv("raw_data/data_{}_{}.csv".format(time.strftime("%Y%m%d_%H%M", time.loc
 ```
 
 Therefore, the raw data file name included datetime they are collected and comfort levels (their targets)
+
+
+
+o cold, 1 for cold, 2 for comfortable, 3 for hot and 4 for too hot
