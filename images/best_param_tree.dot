@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="max_minus_mean <= -0.481\ngini = 0.596\nsamples = 653\nvalue = [324, 245, 84]\nclass = 1", fillcolor="#e5813931"] ;
+1 [label="meanTemp <= 0.511\ngini = 0.439\nsamples = 237\nvalue = [16, 169, 52]\nclass = 2", fillcolor="#39e581a1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+5 [label="modeTemp <= -0.068\ngini = 0.558\nsamples = 62\nvalue = [4, 28, 30]\nclass = 3", fillcolor="#8139e50f"] ;
+1 -> 5 ;
+7 [label="gini = 0.15\nsamples = 25\nvalue = [1, 23, 1]\nclass = 2", fillcolor="#39e581ea"] ;
+5 -> 7 ;
+8 [label="gini = 0.361\nsamples = 37\nvalue = [3, 5, 29]\nclass = 3", fillcolor="#8139e5bf"] ;
+5 -> 8 ;
+6 [label="max_minus_mean <= -1.052\ngini = 0.33\nsamples = 175\nvalue = [12, 141, 22]\nclass = 2", fillcolor="#39e581c6"] ;
+1 -> 6 ;
+9 [label="gini = 0.024\nsamples = 83\nvalue = [0, 82, 1]\nclass = 2", fillcolor="#39e581fc"] ;
+6 -> 9 ;
+10 [label="gini = 0.52\nsamples = 92\nvalue = [12, 59, 21]\nclass = 2", fillcolor="#39e58188"] ;
+6 -> 10 ;
+2 [label="meanTemp <= 0.727\ngini = 0.413\nsamples = 416\nvalue = [308, 76, 32]\nclass = 1", fillcolor="#e58139ae"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.319\nsamples = 333\nvalue = [270, 49, 14]\nclass = 1", fillcolor="#e58139c6"] ;
+2 -> 3 ;
+4 [label="gini = 0.638\nsamples = 83\nvalue = [38, 27, 18]\nclass = 1", fillcolor="#e5813932"] ;
+2 -> 4 ;
+}
